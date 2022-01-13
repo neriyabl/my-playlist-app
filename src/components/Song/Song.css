@@ -1,0 +1,8 @@
+.song {
+  margin: 10px;
+  padding: 0 10px;
+  min-width: 25vw;
+  border: 2px solid teal;
+  border-radius: 10px;
+  justify-content: space-between;
+}

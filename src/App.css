@@ -6,3 +6,27 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.col {
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h3 {
+  margin: 0 5px;
+}
+
+h4 {
+  margin: 0 5px;
+}

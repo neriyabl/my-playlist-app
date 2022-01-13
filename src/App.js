@@ -14,11 +14,15 @@ function App() {
     idsRef.current++;
   };
 
+  const deleteSong = (id) => {
+    setSongs(songs.filter((song) => song.id !== id));
+  };
+
   return (
     <div className="App">
       <Header />
       <AddSongForm onAddSong={addSong} />
-      <SongList songs={songs} />
+      <SongList songs={songs} onDeleteSong={deleteSong} />
     </div>
   );
 }
